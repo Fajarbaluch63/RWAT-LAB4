@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network and Asynchronous Programming</title>
+    <style>
+        /* Style the table with borders and proper width */
+        table {
+            width: auto; /* Change from 100% to auto for a more compact table */
+            margin: 0 auto; /* Center the table on the page */
+            border-collapse: collapse; /* Ensure borders are collapsed */
+        }
+        th, td {
+            border: 1px solid black; /* Add black border to cells */
+            padding: 8px; /* Add padding for a cleaner look */
+            text-align: left; /* Align text to the left */
+        }
+        th {
+            background-color: #f2f2f2; /* Light background for headers */
+        }
+    </style>
+</head>
+<body>
+    <h1>Network and Asynchronous Programming</h1>
+    <button id="sync">XMLHttpRequest (Sync)</button>
+    <button id="async-callback">XMLHttpRequest (Async with Callback)</button>
+    <button id="fetch-promises">Fetch with Promises</button>
+    
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>ID</th>
+                <th>Address</th>
+                <th>Grades</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
